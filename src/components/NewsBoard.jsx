@@ -9,7 +9,7 @@ const NewsBoard = ({category}) => {
 
   useEffect(() => {
 
-    let url=`https://gnews.io/api/v4/top-headlines?category=${category}&lang=en&country=in&apikey=78c78b490fadff4c4c7528490ac0ce9c`;
+    let url=`https://gnews.io/api/v4/top-headlines?category=${category}&lang=en&country=in&apikey=29b0e79b68eaf207b1791c23d04bb18f`;
     fetch(url)
     .then(response => response.json())
     .then(data => { 

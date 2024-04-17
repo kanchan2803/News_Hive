@@ -24,7 +24,6 @@ const Navbar = ({setCategory}) => {
           <ul className="navbar-nav">
             <li className="nav-item ">
               <div className="nav-link" onClick={()=>setCategory("world")}>
-                <i class="fa fa-globe" aria-hidden="true"></i>
                 World
               </div>
             </li>
