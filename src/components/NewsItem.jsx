@@ -1,4 +1,4 @@
-import news from "../images/news.jpg"
+import news from "./public/images/news.jpg"
 
 const NewsItem = ({title,description,src,url}) => {
   return (
