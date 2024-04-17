@@ -6,7 +6,7 @@ const Navbar = ({setCategory}) => {
     >
       <div className="container-fluid" >
         <div className="navbar-brand h-100 p-3 d-flex flex-column" href="#">
-          <img src="./public/images/klipartz.com.png" className="img-fluid h-75 aign-center" style={{height:"100px" , width:"70px"}} alt="logo" />
+          <img src="src/images/klipartz.com.png" className="img-fluid h-75 aign-center" style={{height:"100px" , width:"70px"}} alt="logo" />
           <span className="badge fs-4 "> News Hive</span>
         </div>
         <button
